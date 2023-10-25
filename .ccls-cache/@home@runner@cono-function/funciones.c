@@ -9,8 +9,8 @@ float c_distancia(float x1, float x2, float y1, float y2, float z1, float z2) {
 }
 
 float r_menor(float h, float r) {
-  printf("Nota: para este ejercicio se considera que la altura truncada es 3/4 "
-         "de la altura total");
+  printf("\nNota: para este ejercicio se considera que la altura truncada es 3/4 "
+         "de la altura total\n");
   float r_men, ht;
   ht = h * 3 / 4;
   r_men = (h * r) / ht;

@@ -36,6 +36,8 @@ int main(void) {
 
   float v = c_volumen(h, r, rmen);
 
+  //Por ultimo imprimimos el volumen
+
   printf("\nEl volumen del cono es: %.2f u3", v);
   return 0;
 }

@@ -35,7 +35,7 @@ int main(void) {
   // con el radio menor ya tenemos todos los elementos para calcular el volumen
 
   float v = c_volumen(h, r, rmen);
-  
+
   printf("\nEl volumen del cono es: %.2f u3", v);
   return 0;
 }

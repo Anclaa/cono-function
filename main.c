@@ -21,6 +21,10 @@ int main(void) {
   // pedimos que el usuario ingrese la altura total
   printf("\nA continuación ingrese la altura total:\n");
   scanf("%f", &h);
+  while(h<=0){
+    printf("La altura debe ser mayor a 0. Intente nuevamente: \n");
+    scanf("%f", &h);
+  }
 
   // Con los datos obtenidos podemos usar las funciones y hallar el resto de
   // componentes
